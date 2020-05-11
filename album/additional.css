@@ -76,3 +76,7 @@
     text-decoration: none;
     color: inherit;
 }
+
+.cover-card:hover {
+    transform: scale(1.02) translate(0, -10px);
+}
