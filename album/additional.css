@@ -23,7 +23,7 @@
 .nav-link {
     /* text-decoration: underline; */
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
-    font-size: 13px;
+    font-size: 16px;
 }
 
 /* .nav-item-border {
@@ -69,7 +69,7 @@
 }
 
 .cover-card-container {
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .cover-card-link, .cover-card-link:hover, .cover-card-link:visited, .cover-card-link:active {
@@ -79,4 +79,17 @@
 
 .cover-card:hover {
     transform: scale(1.02) translate(0, -10px);
+}
+
+#navbarDropdownMenuLink {
+    /* border-right: 1px solid gray;
+    border-left: 1px solid gray; */
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.nav-item {
+    padding: 0px 10px;
+    /* border-left: 1px solid gray;
+    border-right: 1px solid gray; */
 }
