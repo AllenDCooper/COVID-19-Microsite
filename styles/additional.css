@@ -128,3 +128,141 @@
 .blog-text {
     text-align: justify;
 }
+
+.facebookimgli {
+    display: inline-block;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+footer {
+    padding: 16px;
+}
+
+.facebookimgli img {
+    max-width: 35px;
+}
+
+@media only screen and (max-width: 767px) {
+    .facebookimglivis {
+        visibility:visible !important;
+        display: block !important;
+        float: left !important;
+        margin-right: 10px;
+        max-width: 40px !important;
+    }
+
+    .listdeskmar > li {
+        border-bottom: 0px !important;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width:991px) {
+    .facebookimglivis {
+        visibility:visible !important;
+        display: block !important;
+        float: left !important;
+        margin-right: 10px;
+        max-width: 40px !important;
+    }
+
+    .listdeskmar > li {
+        border-bottom: 0px !important;
+    }
+}
+
+.content {
+    padding: 0px 15px; 
+}
+
+footer img {
+    max-width: 30px;
+    height: auto;
+    float: right;
+}
+
+.footerLogo {
+    padding-right: 30px;
+    box-sizing: inherit;
+}
+
+footer ul li a:hover, footer ul li a:focus {
+    color: white;
+}
+
+footer .specs-divider {
+    color: #B1C0C6;
+    font-size: 80%;
+    vertical-align: middle;
+    opacity: 0.8;
+}
+
+.alert {
+    margin-bottom: 0px;
+}
+
+.policy-alert {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: #CFF3F9;
+    border: 1px solid #45A5B5;
+    font-size: 14px;
+    color: #080808;
+    box-sizing: border-box;
+    padding: 10px;
+    font: inherit;
+}
+
+.policy-alert-icon {
+    position: absolute;
+    top: 7px;
+    left: 13px;
+}
+
+.policy-alert-icon svg {
+    fill: #45a5b5;
+}
+
+.policy-alert span {
+    display: inline-block;
+    padding-left: 45px;
+    box-sizing: border-box;
+    padding-right: 36px;
+}
+
+.close.policy {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 24px;
+    color: #080808;
+    filter: alpha(opacity=20);
+    opacity: 1;
+    text-shadow: none;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.policy-alert span a {
+    font-weight: 700;
+    color: #080808;
+    text-decoration: underline;
+}
