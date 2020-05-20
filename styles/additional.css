@@ -125,6 +125,16 @@
     background-color: #f8f9fa;
 }
 
+.block-quote3 {
+    position: relative;
+    padding-left: 1em;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+    background-color: white;
+    margin: 16px 20px 16px 0px;
+}
+
 .blog-text {
     text-align: justify;
 }
@@ -265,4 +275,12 @@ footer .specs-divider {
     font-weight: 700;
     color: #080808;
     text-decoration: underline;
+}
+
+.blog-li {
+    margin-bottom: 16px;
+}
+
+.blog-list {
+    text-align: left;
 }
