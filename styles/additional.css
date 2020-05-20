@@ -284,3 +284,23 @@ footer .specs-divider {
 .blog-list {
     text-align: left;
 }
+
+.run-in {
+    /* font-variant: small-caps; */
+    /* text-decoration: underline; */
+    font-weight: 600;
+    font-size: 17px;
+    /* font-family: Georgia, 'Times New Roman', Times, serif */
+}
+
+.btn-footer, .btn-footer:hover, .btn-footer:active {
+    /* position: absolute;
+    bottom: 20px;
+    left: 0px; */
+    margin-top: 10px;
+}
+
+.button-link, .button-link:hover, .button-link:visited, .button-link:active {
+    text-decoration: none;
+    color: inherit;
+}
