@@ -305,8 +305,10 @@ footer .specs-divider {
     color: inherit;
 }
 
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-};
+/* .footnote {
+    position: absolute;
+    bottom: 30px;
+    left: 0px;
+    padding: 0px 20px;
+    font-style: italic;
+} */
