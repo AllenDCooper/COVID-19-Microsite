@@ -304,3 +304,9 @@ footer .specs-divider {
     text-decoration: none;
     color: inherit;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
